@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic page needs -->
+    <meta charset="UTF-8">
+    <title>NewsPager</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Scripts -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="fonts/svg/logo.svg" type="image/x-icon">
+    <link rel="icon" href="fonts/svg/logo.svg" type="image/x-icon">
+
+</head>
+
+<body>
+    <header class="short-header">
+        <div class="gradient-block"></div>
+        <div class="row header-content">
+            <div class="logo">
+                <a href="index.html"></a>
+            </div>
+
+            <nav id="main-nav-wrap">
+                <ul class="main-navigation sf-menu">
+                    <li class="current"><a href="index.html" title="">Home</a></li>
+                    <li class="has-children">
+                        <a href="category.html" title="">Categories</a>
+                        <ul class="sub-menu">
+                            <li><a href="category.html">Technology</a></li>
+                            <li><a href="category.html">Politics</a></li>
+                            <li><a href="category.html">Science</a></li>
+                            <li><a href="category.html">Sports</a></li>
+                            <li><a href="category.html">Others</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- end main-nav-wrap-->
+
+            <div class="search-wrap">
+                <form role="search" method="get" class="search-form" action="#">
+                    <label>
+                    <span class="hide-content">Search</span>
+                    <input type="search" class="search-field" placeholder="Write here..." value="" name="s" title="Search for:" autocomplete="off">
+                </label>
+                    <input type="submit" class="searh-submit" value="Search">
+                </form>
+                <a href="#" id="close-search" class="close-btn">Close</a>
+            </div>
+            <!-- end search wrap-->
+
+            <div class="triggers">
+                <a href="#" class="search-trigger"><i class="fa fa-search"></i></a>
+                <a href="#" class="menu-toggle"><span>Menu</span></a>
+            </div>
+            <!-- end triggers-->
+        </div>
+    </header>
+    <!-- end header-->
+
+    <section id="bricks">
+        <div class="row masonry">
+            <div class="bricks-wrapper">
+                <div id="articleNews" class="grid-sizer">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="row">
+
+        <nav class="pagination">
+            <span class="page-numbers prev inactive">Prev</span>
+            <span class="page-numbers current">1</span>
+            <a href="#" class="page-numbers">2</a>
+            <a href="#" class="page-numbers">3</a>
+            <a href="#" class="page-numbers">4</a>
+            <a href="#" class="page-numbers">5</a>
+            <a href="#" class="page-numbers">6</a>
+            <a href="#" class="page-numbers">7</a>
+            <a href="#" class="page-numbers">8</a>
+            <a href="#" class="page-numbers">9</a>
+            <a href="#" class="page-numbers next">Next</a>
+        </nav>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-main">
+            <div class="row">
+                <div class="col-four tab-full mob-full footer-info">
+                    <h4>About Our Site</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur quisquam inventore nostrum atque suscipit asperiores nisi eligendi quod ea ab rerum facilis, fugit deserunt? Iste enim neque culpa fugit beatae natus ad iure perspiciatis sit numquam, dicta cum dolorem aspernatur quasi et nihil est ullam fuga, quos, dolorum minus modi?</p>
+                </div>
+                <div class="col-two tab-1-3 mob-1-2 site-links">
+                    <h4>Site Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-two tab-1-3 mob-1-2 social-links">
+                    <h4>Social</h4>
+                    <ul>
+                        <li><a href="#"><i class="fa fa-twitter"></i> <strong> |</strong> Twitter</a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i> <strong style="padding-left: 5px">|</strong> Facebook</a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i> <strong>|</strong> Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="col-four tab-1-3 mob-full footer-subscribe">
+                    <h4>Subscribe</h4>
+                    <p>Reach the reliable news. Subscribe to NewsPager</p>
+                    <div class="subscribe-form">
+                        <form id="mc-form" class="group" novalidate="true">
+                            <input type="email" name="dEmail" id="mc-email" value="" class="email" placeholder="Type &amp; press enter" required="">
+                            <input type="submit" name="subscribe">
+                            <label for="mc-email" class="subscribe-message"></label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="row">
+                <div class="col-twelve">
+                    <div class="copyright">
+                        <span>© Copyright 2022</span>
+                        <span>Design by <a target="_blank" href="https://yunusemre-topcu.netlify.app/">Yunus Emre Topçu</a></span>
+                    </div>
+                    <div id="go-top">
+                        <a href="#top" class="smoothscroll" title="Back to top"><i class="icon icon-arrow-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+    <script src="/js/jquery-2.1.3.min.js"></script>
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+
+    
+</body>
+
+</html>
