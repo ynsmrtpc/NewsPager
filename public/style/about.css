@@ -1,0 +1,12 @@
+.card img {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: -30px -20px 20px rgba(227, 135, 255, 0.3), 0px 40px 20px rgba(255, 219, 57, 0.3), 30px -20px 20px rgba(118, 255, 255, 0.22) !important;
+}
+
+.card .title {
+    top: 0;
+    left: 0;
+}

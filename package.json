@@ -1,0 +1,28 @@
+{
+    "name": "newspager",
+    "version": "1.0.0",
+    "description": "",
+    "main": "/server.js",
+    "scripts": {
+        "start": "nodemon --experimental-modules --es-module-specifier-resolution=node server.js",
+        "devStart": "nodemon server.js",
+        "build" : "babel src -d ./public/scripts --watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "ejs": "^3.1.8",
+        "express": "^4.17.1",
+        "express-ejs-layouts": "^2.5.1",
+        "mongodb": "^4.7.0",
+        "newsapi": "^2.4.1",
+        "yarn": "^1.22.19"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.17.10",
+        "@babel/core": "^7.18.5",
+        "@babel/preset-env": "^7.18.2",
+        "@babel/polyfill": "^7.12.1",
+        "nodemon": "^2.0.16"
+    }
+}
