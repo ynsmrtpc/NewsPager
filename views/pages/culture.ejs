@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head') %>
+</head>
+
+<body id="top">
+    <header class="short-header">
+        <%- include('../partials/header') %>
+    </header>
+   
+    <section id="bricks">
+        <div class="row masonry">
+            <div class="wrapper">
+                <h1 style="color: #000">All news about <label style="color: #45454545; text-transform:uppercase">culture</label></h1>
+                <div id="articleNews" class="grid-sizer">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <%- include('../partials/preloader') %>
+        <%- include('../partials/footer') %>
+        <script src="/scripts/jquery-2.1.3.min.js"></script>
+        <script src="/scripts/plugins.js"></script>
+        <script src="/scripts/main.js"></script>
+        <script src="/scripts/culture.js"></script>
+</body>
+</html>
