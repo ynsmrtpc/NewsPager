@@ -1,9 +1,9 @@
-# NewsPager
+<h1> NewsPager </h1>
 
-Note: Since the "node_modules" folder is too large, I deleted the folder. You can have all necessary packages installed by typing 'npm install'* or 'yarn install'** in the terminal. 
+<p>Note: Since the "node_modules" folder is too large, I deleted the folder. You can have all necessary packages installed by typing 'npm install'* or 'yarn install'** in the terminal. </p>
 
-*  You need to have npm installed on your computer.
-** You need to have yarn installed on your computer.
+<p> *  You need to have npm installed on your computer. </p>
+<p> ** You need to have yarn installed on your computer. </p>
 
 
 ![image](https://user-images.githubusercontent.com/31772115/175720912-f4474107-3aa5-4967-9bcf-0201501bbf9b.png) <hr>
