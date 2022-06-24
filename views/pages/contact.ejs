@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <%- include('../partials/head') %>
+    <link rel="stylesheet" href="/style/contact.css">
+
+</head>
+
+<body id="top">
+    <header class="short-header">
+        <%- include('../partials/header') %>
+    </header>
+    <label id="toast"></label>
+
+    <form>
+        <div class="form-group">
+          <label for="inputName">Name Surname</label>
+          <input required type="text" class="form-control" id="inputName" aria-describedby="name" placeholder="Enter Name Surname">
+        </div>
+
+        <div class="form-group">
+          <label for="emailInput">Email</label>
+          <input required type="email" class="form-control" id="emailInput" placeholder="Enter Email">
+        </div>
+
+        <div class="form-group">
+            <label for="textAreaInput">Write Your Message</label>
+            <textarea required id="textAreaInput" rows="10"></textarea>
+          </div>
+        <button id="sumbitBtn" type="submit">Submit</button>
+
+    <div class="email">
+        <p align="center">OR</p>  
+        <a href="mailto:newspager@outlook.com">
+            <i class="fa fa-envelope"></i>
+        </a>
+    </div>
+      </form>
+
+
+      
+
+    <%- include('../partials/preloader') %>
+        <%- include('../partials/footer') %>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+        <script src="/scripts/jquery-2.1.3.min.js"></script>
+        <script src="/scripts/plugins.js"></script>
+        <script src="/scripts/main.js"></script>
+        <script src="/scripts/contact.js"></script>
+</body>
