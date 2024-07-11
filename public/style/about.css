@@ -1,0 +1,33 @@
+h1,
+h4 {
+    color: #343434;
+    text-transform: uppercase;
+}
+
+p{
+    margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    background-color: rgba(225, 225, 225);
+    -webkit-box-shadow: -5px 1px 70px -18px rgba(0,0,0,0.23);
+    -moz-box-shadow: -5px 1px 70px -18px rgba(0,0,0,0.23);
+    box-shadow: -5px 1px 70px -18px rgba(0,0,0,0.23);
+    transition: box-shadow 1s;
+    width: 100%;
+}
+
+.card:hover {
+    -webkit-box-shadow: -5px 1px 70px -18px rgba(0,0,0,0.97);
+    -moz-box-shadow: -5px 1px 70px -18px rgba(0,0,0,0.97);
+    box-shadow: -5px 1px 70px -18px rgba(0,0,0,0.97);
+}
+
+.container {
+    padding:2px 16px;
+}
+
+.card img {
+    width: 20%;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head') %>
+</head>
+<style>
+    .country {
+        display: inline-flex !important;
+    }
+</style>
+<body id="top">
+    <header class="short-header">
+        <%- include('../partials/header') %>
+    </header>
+   
+    <section id="bricks">
+        <div class="row masonry">
+            <div class="wrapper">
+
+                <div id="articleNews" class="grid-sizer">
+
+                </div>
+            </div>
+        </div>
+
+        <div id="welcomeDiv">
+            <label class="brandName"><b>NEWSPAGER</b></label>
+            <label class="slogan"> RELIABLE JOURNISM </label>
+            <label class="selectCountryLabel"> PLEASE CHOOSE A COUNTRY </label>
+        </div>
+
+
+
+
+        <div class="row">
+            <nav class="pagination" id="pagination">
+                <button id="pagination-1" class="page-numbers" style="display:none; float: left;">Previous Page</button>
+                <button id="pagination-2" class="page-numbers" style="float: right;visibility:hidden">Next Page</button>
+            </nav>
+        </div>
+
+    </section>
+
+    <%- include('../partials/preloader') %>
+        <%- include('../partials/footer') %>
+            <%- include('../partials/scripts') %>
+</body>
+</html>
